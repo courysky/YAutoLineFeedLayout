@@ -20,17 +20,7 @@ public class MainActivity extends Activity {
         
         
         AutoLineFeedLayout alflTags = (AutoLineFeedLayout) findViewById(R.id.alfl_tags);
-        String str = "";
-        for (int i = 10; i < 25; i++) {
-//            LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT);
-//            params.setMargins(0, 0, 0,0);
-//            TextView txtTag = new TextView(this);
-//            str += "测";
-//            txtTag.setText(str);
-//            txtTag.setBackgroundResource(R.drawable.shop_attribute_corners);
-//            txtTag.setPadding(5, 5, 5, 5);
-//            txtTag.setLayoutParams(params);
-//            alflTags.addView(txtTag);
+        for (int i = 3; i < 15; i++) {
             
             View childView = LayoutInflater.from(MainActivity.this).inflate(R.layout.item_layout, null);
             TextView codeTextView = (TextView) childView.findViewById(R.id.tlt_code);
