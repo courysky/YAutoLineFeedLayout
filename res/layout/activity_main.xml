@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"  android:layout_height="match_parent"
+    tools:context="practise.victor.autolinefeedlayout.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="以下是一个自动换行的GroupView:" />
+
+    <practise.victor.autolinefeedlayout.AutoLineFeedLayout 
+        android:id="@+id/alfl_tags"
+        android:background="#88333000"
+        app:paddingLeft="10dp" app:paddingRight="2dp"
+        app:verticalSpacing="1dp"
+        app:horizontalSpacing="2dp"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        ></practise.victor.autolinefeedlayout.AutoLineFeedLayout>
+</LinearLayout>

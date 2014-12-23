@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoLineFeedLayout">
+        <attr name="debug" format="boolean"></attr>
+        
+        <attr name="paddingLeft" format="reference|dimension"/>
+        <attr name="paddingRight" format="reference|dimension"/>
+        <attr name="paddingTop" format="reference|dimension"/>
+        <attr name="paddingBottom" format="reference|dimension"/>
+        
+        <attr name="verticalSpacing" format="reference|dimension"/>
+        <attr name="horizontalSpacing" format="reference|dimension"/>
+    </declare-styleable>
+</resources>
