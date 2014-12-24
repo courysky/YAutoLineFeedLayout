@@ -96,7 +96,7 @@ public class AutoLineFeedLayout extends ViewGroup{
         if(DEBUG) Log.v(TAG, "--- onMeasure()");
         
         int count = getChildCount();
-        int width = getWidth();
+        int width = measureWidth(widthMeasureSpec);
         Log.i(TAG, "宽度 :"+width);
         
 
